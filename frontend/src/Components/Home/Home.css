@@ -1,0 +1,133 @@
+/* LandingPage.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a basic background color and font styles */
+  body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+
+  .landing-page {
+    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffh260%2Fbackground%2F20211110%2Fpngtree-background-ulang-tahun-aesthetic-image_915536.png&tbnid=-uT1c1vbk5HG3M&vet=12ahUKEwjJ_vXYi9z_AhXVzqACHY3LBcAQMygsegUIARDOAg..i&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Faesthetic&docid=ZEVyqNLDl8JS7M&w=719&h=404&q=asthetic%20background%20images%20for%20websie&ved=2ahUKEwjJ_vXYi9z_AhXVzqACHY3LBcAQMygsegUIARDOAg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  
+  /* Header styles */
+  .header {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #000000;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: blue;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    color: #333333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .section ul {
+    list-style: none;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  
